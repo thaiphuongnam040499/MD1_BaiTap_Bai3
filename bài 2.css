@@ -1,0 +1,10 @@
+span{
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+label{
+    display: flex;
+}
+table{
+    border: 1px;
+}

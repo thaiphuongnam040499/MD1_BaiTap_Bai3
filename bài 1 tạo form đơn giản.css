@@ -1,0 +1,19 @@
+h1 {
+    background-color:coral;
+    color: white;
+    text-align: center;
+}
+.div1{
+    width: 500px;
+    background-color: aquamarine;
+}
+.div2 {
+    scale: 90%;
+    background-color: white;
+table {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+label{color: blue}
+

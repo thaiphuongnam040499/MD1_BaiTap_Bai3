@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form lấy survey </title>
+    <link rel="stylesheet" href="./bài%202.css">
+</head>
+<body>
+<div>
+    <div class="header">
+        <h1>Maket research survey</h1>
+        <p>Please take a few moments to complete this satisfaction survey.</p>
+    </div>
+    <div class="container">
+        <span>What is your age range?</span>
+        <br>
+        <select>
+            <option>18-24</option>
+            <option>25-34</option>
+            <option>35-50</option>
+            <option>50+</option>
+        </select>
+        <br>
+        <span>What is your yearly income range?</span>
+        <br>
+        <select>
+            <option>$0-$25000</option>
+            <option>$25001-$50000</option>
+            <option>50001-$100000</option>
+            <option>$100000+</option>
+        </select>
+        <form action="">
+            <span>Gender Identity</span>
+            <br>
+            <label>
+                <input name="hobby" type="radio" value="male" >Male
+            </label>
+            <label>
+                <input name="hobby" type="radio" value="FeMale" >FeMale
+            </label>
+            <label>
+                <input name="hobby" type="radio" value="Nonbinary" >Nonbinary
+            </label>
+            <label>
+                <input name="hobby" type="radio" value="Other" >Other
+            </label>
+            <label >
+                <input type="text" name="name">
+            </label>
+        </form>
+        <span>Which of the following products have your purchased in the last 2 months. Please check all that apply.</span>
+        <form action="">
+            <label>
+                <input name="hobby" type="checkbox" value="Product 1" >Product 1
+            </label>
+            <label>
+                <input name="hobby" type="checkbox" value="Product 2" >Product 2
+            </label>
+            <label>
+                <input name="hobby" type="checkbox" value="Product 3" >Product 3
+            </label>
+        </form>
+        <span>How often would you use our new product?</span>
+        <form action="">
+            <span>Gender Identity</span>
+            <br>
+            <label>
+                <input name="hobby" type="radio" value="Daily">Daily
+            </label>
+            <label>
+                <input name="hobby" type="radio" value="Weekly">Weekly
+            </label>
+            <label>
+                <input name="hobby" type="radio" value="Monthly">Monthly
+            </label>
+        </form>
+        <span>What would you pay for the new product?</span>
+        <br>
+        $ <input type="text">. <input type="text">
+        <br>
+        <span>What features would you like to see in the new product.</span>
+        <br>
+        <textarea></textarea>
+        <br>
+        <span>Please rate your level of agreement with the following statements.</span>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th>Strongly</th>
+                <th>Disagree</th>
+                <th>Agree</th>
+                <th>Strongly</th>
+            </tr>
+                <tr>
+                    <td>Our products are priced fairly.</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+                <tr>
+                    <td>Our products are high quality.</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+                <tr>
+                    <td>You would recommend our product to a friend or coworker.</td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                    <td><input type="radio"></td>
+                </tr>
+            </table>
+    </div>
+    <div class="footer">
+
+    </div>
+</div>
+</body>
+</html>
